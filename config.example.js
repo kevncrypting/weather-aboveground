@@ -1,3 +1,3 @@
 const API_TOKEN = '';
 
-export default API_TOKEN;g
+export default API_TOKEN;

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Aboveground</title>
+</head>
+<body>
+    <header>
+        <h1>Weather Aboveground</h1>
+    </header>
+    <main>
+        <section id="current-weather">
+            <h3>Welcome to my weather app!</h3>
+            <p>Please enter the name of the city that you would like to check the weather of below.</p>
+            <form>
+                <label for="input-city">City Name:</label>
+                <input placeholder="Enter city or zipcode" type="text" name="inputCity" id="input-city" required>
+                <input type="submit" value="Get Weather">
+            </form>
+            <section class="card">
+                <h4 id="city-name"></h4>
+                <div id="data-display">
+                    <p id="current-temp-fah"></p>
+                    <p id="current-temp-cel"></p>
+                    <p id="sunrise"></p>
+                    <p id="sunset"></p>
+                    <p id="moon-phase"></p>
+                </div>
+            </section>
+        </section>
+    </main>
+    <script src="./script.js" type="module"></script>
+</body>
+</html>
